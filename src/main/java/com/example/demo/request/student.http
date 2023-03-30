@@ -7,15 +7,8 @@
 
 ###
 
-PUT http://localhost:8080/api/v1/registration
+PUT http://localhost:8080/api/v1/student/1?name=Maria&email=maria@gmail.com
 Content-Type: application/json
-
-{
-"firstName": "Bilal",
-"lastName": "ahmed",
-"email": "bilal.amhed@gmail.com",
-"password": "password"
-}
 
 ###
 
