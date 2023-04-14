@@ -23,6 +23,8 @@ public class Student {
     private String email;
     private LocalDate dob;
 
+    private Double x;
+
     @Transient
     private Integer age;
 
@@ -85,11 +87,11 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", dob=" + dob +
-                ", age=" + age +
-                '}';
+                "id=" + id + "," +
+                "name='" + name + '\'' + "," +
+                "email='" + email + '\'' + "," +
+                "dob=" + dob +
+                "age=" + age +
+            '}';
     }
 }
